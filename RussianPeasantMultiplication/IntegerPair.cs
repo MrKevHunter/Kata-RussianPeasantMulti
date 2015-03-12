@@ -2,7 +2,7 @@ namespace RussianPeasantMultiplication
 {
    public class IntegerPair
    {
-      public int lhs{ get; set;}
-      public int rhs{ get; set;}
+      public int Lhs{ get; set;}
+      public int Rhs{ get; set;}
    }
 }
