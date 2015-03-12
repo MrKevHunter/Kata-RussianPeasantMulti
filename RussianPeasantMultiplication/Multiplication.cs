@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -52,7 +53,7 @@ namespace RussianPeasantMultiplication
         private IEnumerable<int> GetListOfNumbersFromLhs(int input)
         {
             yield return input;
-            while (input != 1)
+            while (Math.Abs(input) != 1)
             {
                 input = (input/2);
                 yield return input;
